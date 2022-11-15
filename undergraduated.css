@@ -1,0 +1,226 @@
+
+ *{
+  box-sizing: border-box;
+    
+    font-family: poppins;
+
+}
+body{
+    justify-content: center;
+}
+.title h1{
+    text-align: center;
+    font-size: 30px}
+    .title h1::after{
+        content: "";
+        height: 5px;
+        width: 100px;
+        background-color: #0b2327;
+        border-radius: 25px;
+        display: block;
+        margin: auto;}
+.div1{
+    /*100vh = 100% of the screen in the vertical direction
+    100vw=100% if the screen in the horizontal direction*/
+    height:  50px;
+    width: 100vw;
+    background-color: gray;
+    opacity: 0.9;
+    content: "";
+    position: sticky;
+    top: 0;
+    border-radius: 4px;
+   
+ 
+}
+
+
+/* align ites=ms : for alignment, the pading is the distance between items or between items and the screen border
+the the hover is for hilighting the content */
+
+nav{display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+   
+    
+}
+nav ul li {
+    list-style-type: none ;
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    font-size: 12pt;
+    margin-top: 3px;
+
+    
+    
+}
+ul{
+    list-style: none;
+}
+li {
+    font-weight: bold;
+    font-size: 20px;
+}
+.nb{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+a{
+    color: #133034;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.nb:hover{
+        transition: 0.4s;
+      border-bottom: solid gray;
+        width: 50px;
+}
+.nb:hover{
+        transition: 0.4s;
+      border-bottom: solid #133034;
+        width: 50px;
+    
+        
+    }
+   
+    
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.faculty_names{
+float: left;
+
+}
+.department {
+color: #fff;
+justify-content: center;
+float: right;
+width:30rem;
+}
+.adress{
+
+ background-color: #133034;
+margin-right: 50px ;
+height: 15rem;
+padding-left: 70px;
+justify-items: auto;
+margin-top: 15px;
+padding-top: 30px ;
+border-radius: 10px;
+
+
+}
+.image{
+    margin-top: 15px;
+    margin-bottom: 200px;
+}
+.button{
+    width: 150px;
+    height: 20px;
+    
+}
+.button a {text-decoration: none;
+    padding: 8px 20px;
+   background-color: #133034;
+   border-radius: 20px;
+   color: #fff;
+   font-size: 12px;
+   }
+   .button a:hover{
+    color: #0b2327;
+    background-color: #fff;
+    transition: 0.5s ease;
+    border:solid #0b2327;}
+
+   .content{
+    color: #fff;
+    width: 45rem;
+    height: 10rem;
+    background-color:  rgb(192, 187, 187);
+    padding-left: 20px;
+    border-radius: 10px;
+
+   }
+   .par{
+    padding-top: 10px;
+    padding-bottom: 5px;
+   }
+   .button{
+    padding-top: 10px;
+   }
+   span{
+    color: black;
+    font-weight: bold;
+   }
+ /*===footer===*/
+ footer{
+    background-color: #0b2327;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #ffff;
+    margin-top: 100px;
+    position: relative;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: space-between;
+}
+.social li{
+    margin:0 10px
+}
+.social a{
+    text-decoration: none;
+    color: #ffff;
+    
+}
+.social a i{
+    font-size: 14pt;
+}
+.footer-botom{
+    background-color: #1d2425;
+    width: 100%;
+    padding:20px;
+    text-align: center;
+}
+.footer-botom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    
+}

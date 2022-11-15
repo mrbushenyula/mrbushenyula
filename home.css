@@ -1,0 +1,407 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+html{
+  scroll-behavior: smooth;
+} 
+#vima{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+margin: 40px;
+
+}
+
+.map{
+    margin-left: 250px;
+}
+.map h3{
+    text-align: center;
+    color: #133034;
+}
+
+.center{
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*====upper designe====*/
+.div2{
+    max-width: 100vw;
+    justify-content: center;
+}
+.body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)) , url("./image/lib1.jpg") ,black;
+    background: no-repeat;
+    width: 100vw;
+}
+
+
+.wel{
+    margin-top: calc((40rem - 5rem) / 2);
+    width: 45rem;
+   height: 3rem;
+   margin-bottom: calc((35rem - 5rem) / 2);
+   margin-right: auto;
+   margin-left: auto;
+   color: #ffff;
+   justify-content: space-around;   
+}
+.line{
+    position: relative;
+    top:50%;
+    width:21rem;
+    margin:0 auto;
+    border-right: 2px solid #fff;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+/* animatio*/
+.line{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+
+}
+@keyframes typewriter{
+    from{
+        width: 0;
+    }
+    to{
+        width: 21rem;
+    }
+}
+@keyframes blinkTextCursor{
+    from{
+        border-right-color:#fff ;
+    }
+    to{
+        border-right-color:transparent ;
+    }
+}
+
+/*==button design===*/
+.containerb {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: #ffff;
+    font-size: 30pt;
+}
+.but{
+    color: #ffff;
+    height:  5rem;
+    border: none;
+    background: #0b2327;
+    padding: 10px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 10px;
+    transition: ease-in 0.3s;
+    box-shadow: inset 0 0 0 0 #ffff;
+ outline: none;   
+ border-radius: 6px;
+}
+.text{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-size: 11pt;
+}
+
+    
+
+/*.but{
+    width: 120px;
+    height: 30px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    border: 3px solid #ff007c;
+    position: relative;
+    background-color: #0071b6;
+}
+.but:hover{
+    
+  color: ffff;
+    cursor: pointer;
+} 
+.but:before{
+    transition: 0.3s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color:#ff007c ;
+
+}
+.but :hover:before{
+    transition:0.3s all ease;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+
+
+}*/
+
+.div1{
+    /*100vh = 100% of the screen in the vertical direction
+    100vw=100% if the screen in the horizontal direction*/
+    height:  60px;
+    width: 100vw;
+    background-color: gray;
+    opacity: 0.9;
+    content: "";
+    position: sticky;
+    top: 0;
+    border-radius: 4px;
+    z-index: 1;
+ 
+}
+
+
+/* align ites=ms : for alignment, the pading is the distance between items or between items and the screen border
+the the hover is for hilighting the content */
+
+nav{display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 5rem;
+    
+}
+nav ul li {
+    list-style-type: none ;
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    font-size: 18pt;
+    margin-top: 10px;
+    
+}
+ul{
+    list-style: none;
+}
+li {
+    font-weight: bold;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+/*==link design===*/
+.imref{
+    color: ffff;
+    text-decoration: none;
+    font-weight: bold
+
+}
+.nb{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+/*==hover===*/ 
+.but:hover{
+box-shadow: inset 15rem 0 0 0 #ffff;
+color: #0b2327;
+cursor: pointer;
+
+
+}
+.nb:hover{
+    transition: 0.4s;
+  border-bottom: solid #133034;
+    width: 50px;    
+}
+.imref:hover{
+    transition:0.4s;
+    color:#060506;
+    border-bottom:4px #133034 solid;
+}
+
+/*
+==========
+images styles
+==========
+*/
+.th{
+    /*cover enlarge the image 
+    center justify the image in the midle
+    "fill"*/
+    position:relative;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2)) , url("./image/student.jpg")center/cover no-repeat , black;
+    height: 50rem;
+    
+  
+   
+    
+}
+
+.images h2{ 
+    /*----"rem" keep the the measure related to the screen 1rem=16px*/
+    text-transform: capitalize;
+    padding: 1rem;
+    background-color: #8c888a;
+    margin-bottom: 0cm;
+    border-radius: 3px;
+  
+}
+
+img {
+    width: 20rem;
+    height: 13rem;
+    object-fit: cover;
+}
+.video_container{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.images{
+    /*the flexbox is good to use in one direction but the grid hrls to 
+    organize content in all directions at the same time*/
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,20rem);
+    column-gap: 10px;
+    justify-content:center;
+    
+}
+.image {
+    border-radius: 3px;
+}
+.test{
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+}
+/*===tex design===*/
+.title{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21pt;
+    text-align: center;
+}
+.text{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.diana{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 100px;
+    margin-top: 40px;
+
+}
+.diana h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#0b2327;
+    margin-top: 50px;
+}
+.diana h2::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #0b2327;
+    border-radius: 25px;
+    display: block;
+    margin: auto;}
+.diana h2{
+    text-align:center;
+   
+}
+
+
+/*==footer design==*/
+footer{
+    background-color: #0b2327;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #ffff;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: space-between;
+}
+.social li{
+    margin:0 10px
+}
+.social a{
+    text-decoration: none;
+    color: #ffff;
+    
+}
+.social a i{
+    font-size: 14pt;
+}
+.footer-botom{
+    background-color: #1d2425;
+    width: 100%;
+    padding:20px;
+    text-align: center;
+}
+.footer-botom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    
+}
