@@ -2,7 +2,7 @@
 - 👀 I’m interested in data science and artificial intelligence 
 - 🌱 I’m currently learning c,js, java, python
 - 💞️ I’m looking to collaborate on js and python
-- 📫 How to reach me send me an email on bushenyulatheophile@gmail.com
+- 📫 Contact me on bushenyulatheophile@gmail.com
 
 <!---
 mrbushenyula/mrbushenyula is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
